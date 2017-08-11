@@ -1,0 +1,48 @@
+h1{
+	font-size: 16px;
+	color: blue;
+}
+body{
+	padding: 50px;
+	font: 14px "Lucida Grande",Helvetice,Arial,sans-serif;
+}
+a{
+	color: #00B7FF
+}
+#content{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#room{
+	background-color: #DDD;
+	margin-bottom: 1em;
+}
+#messages{
+	width: 690px;
+	height: 300px;
+	overflow: auto;
+	background-color: #EEE;
+	margin-bottom: 1em;
+	margin-right: 10px;
+}
+#room-list{
+	float: right;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+#room-list div{
+	border-bottom: 1px solid #EEE;
+}
+#room-list div:hover{
+	border-bottom: 1px solid #DDD;
+}
+#send-message{
+	width: 700px;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+#help{
+	font: 10px "Lucida Grande",Helvetice,Arial,sans-serif;
+}
