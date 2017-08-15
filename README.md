@@ -1,15 +1,9 @@
 /***服务器端***/
-
 使用socket.io -- listen(http的server);
-
 io.on('connection',function(socket));//监听客户端连接,回调函数会传递本次连接的socket
-
 io.sockets.emit('String',data);//给所有客户端广播消息
-
 io.sockets.socket(socketid).emit('String', data);//给指定的客户端发送消息
-
 socket.on('String',function(data));//监听客户端发送的信息
-
 socket.emit('String', data);//给该socket的客户端发送消息
 
 
