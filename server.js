@@ -60,5 +60,6 @@ server.listen('8000','192.168.9.56', function() {
   console.log("Server listening on port 3000.");
 });
 
+
 var chatServer = require('./lib/chat_server');
 chatServer.listen(server);//挂载socket在server上
