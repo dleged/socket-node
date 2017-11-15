@@ -6,7 +6,7 @@ var cache = {};
 
 //处理消息错误请求 
 function send404(response) {
-  response.writeHead(404, {'Content-Type': 'text/plain'});
+  response.writeHead(404, {'Content-Type': 'text/plain'});//设置错误码
   response.write('Error 404: resource not found.');
   response.end();
 }

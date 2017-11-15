@@ -88,6 +88,8 @@ $(document).ready(function(){
 		processUserInput(chatApp,socket);
 		return false;
 	});
+
+	//监听msg事件
 	socket.on('msg',function(data){
 			console.log(222);
 		});
